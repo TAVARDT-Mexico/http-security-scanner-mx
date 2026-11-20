@@ -1,11 +1,11 @@
 # Escáner de Cabeceras de Seguridad HTTP | TAVARDT México
 
-[![Auditoria de Segurança](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-México-00C853.svg)](https://ag.tavardt.com/mx/ciberseguridad/)
+[![Alcance de la Verificación Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
+[![Jurisdicci%C3%B3n](https://img.shields.io/badge/Jurisdicci%C3%B3n-México-00C853.svg)](https://ag.tavardt.com/mx/ciberseguridad/)
 
 Auditoría automatizada de medidas técnicas de seguridad perimetral y cabeceras HTTP bajo las recomendaciones del INAI y la LFPDPPP en México.
 
-Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraestruturas da **[TAVARDT México](https://ag.tavardt.com/mx/)**.
+Desarrollado y mantenido por el equipo de ciberdefensa y protección de datos de **[TAVARDT México](https://ag.tavardt.com/mx/)**.
 
 ---
 
@@ -13,28 +13,28 @@ Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraest
 
 Esta herramienta de consola audita los controles de transporte seguro y protección del navegador en infraestructuras digitales mexicanas:
 
-* **Strict-Transport-Security (HSTS):** Força comunicações encriptadas via HTTPS e impede ataques de downgrade e interceptação SSL.
-* **Content-Security-Policy (CSP):** Mitiga ataques de injeção de scripts (XSS) e restringe as origens autorizadas para carregamento de recursos.
-* **X-Frame-Options:** Previne ataques de clickjacking regulando as permissões de incorporação em frames e iframes.
-* **X-Content-Type-Options:** Impede a execução indevida de ficheiros derivados de vulnerabilidades de MIME-sniffing.
-* **Referrer-Policy:** Protege dados sensíveis contidos em URLs de referência contra fuga para domínios terceiros.
-* **Permissions-Policy:** Aplica o princípio do menor privilégio sobre APIs de hardware do navegador (câmara, microfone e geolocalização).
+* **Strict-Transport-Security (HSTS):** Exige conexiones cifradas mediante HTTPS e impide ataques de degradación e interceptación SSL.
+* **Content-Security-Policy (CSP):** Bloquea inyecciones de código malicioso (XSS) y restringe las fuentes de carga autorizadas.
+* **X-Frame-Options:** Evita ataques de suplantación visual y clickjacking regulando el uso de iframes.
+* **X-Content-Type-Options:** Previene la ejecución indebida de archivos por detección automática de tipos MIME.
+* **Referrer-Policy:** Salvaguarda parámetros confidenciales en las URLs de origen contra fugas a terceros.
+* **Permissions-Policy:** Aplica mínimos privilegios sobre el acceso a sensores y periféricos del dispositivo.
 
 ---
 
 ## 2. Guía de Ejecución Rápida
 
-Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
+Ejecute la herramienta directamente en Python sin requerir librerías externas adicionales:
 
 ```bash
-python scanner.py exemplo.com
+python scanner.py ejemplo.mx
 ```
 
 ---
 
 ## 3. Herramientas Técnicas Online (México)
 
-Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
+Audite la seguridad perimetral de sus sistemas web con las herramientas oficiales de TAVARDT:
 
 * [Verificador de Cabeceras de Seguridad](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
 * [Validador de Consent Mode v2 y LFPDPPP](https://tools.tavardt.com/mx/validador-consent-mode-v2-lfpdppp/)

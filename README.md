@@ -1,44 +1,49 @@
 # Escáner de Cabeceras de Seguridad HTTP | TAVARDT México
 
-[![Security Audit](https://img.shields.io/badge/TAVARDT-Security%20Diagnostic-5b3cf5.svg)](https://tools.tavardt.com/mx/)
-[![Compliance Standard](https://img.shields.io/badge/Framework-MXN%20Region-00C853.svg)](https://ag.tavardt.com/mx/)
+[![Auditoria de Segurança](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
+[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-México-00C853.svg)](https://ag.tavardt.com/mx/ciberseguridad/)
 
-Verificación de medidas de seguridad técnicas en cabeceras HTTP bajo la LFPDPPP en México.
+Auditoría automatizada de medidas técnicas de seguridad perimetral y cabeceras HTTP bajo las recomendaciones del INAI y la LFPDPPP en México.
 
-Maintained by the enterprise cybersecurity and edge protection division at [TAVARDT México](https://ag.tavardt.com/mx/).
-
----
-
-## 1. Scope of Verification
-
-This lightweight command-line tool verifies critical perimeter HTTP security headers:
-
-* **Strict-Transport-Security (HSTS):** Enforces HTTPS encryption and prevents downgrade attacks.
-* **Content-Security-Policy (CSP):** Mitigates cross-site scripting (XSS) and unauthorised content injection.
-* **X-Frame-Options:** Prevents clickjacking attacks by controlling frame embedding permissions.
-* **X-Content-Type-Options:** Prevents MIME-sniffing attacks.
-* **Referrer-Policy:** Protects sensitive URL path data from leaking to third parties.
-* **Permissions-Policy:** Enforces least-privilege access for browser hardware APIs.
+Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraestruturas da **[TAVARDT México](https://ag.tavardt.com/mx/)**.
 
 ---
 
-## 2. Quick Start
+## 1. Alcance de la Verificación Perimetral
 
-Execute directly via Python without external library dependencies:
+Esta herramienta de consola audita los controles de transporte seguro y protección del navegador en infraestructuras digitales mexicanas:
+
+* **Strict-Transport-Security (HSTS):** Força comunicações encriptadas via HTTPS e impede ataques de downgrade e interceptação SSL.
+* **Content-Security-Policy (CSP):** Mitiga ataques de injeção de scripts (XSS) e restringe as origens autorizadas para carregamento de recursos.
+* **X-Frame-Options:** Previne ataques de clickjacking regulando as permissões de incorporação em frames e iframes.
+* **X-Content-Type-Options:** Impede a execução indevida de ficheiros derivados de vulnerabilidades de MIME-sniffing.
+* **Referrer-Policy:** Protege dados sensíveis contidos em URLs de referência contra fuga para domínios terceiros.
+* **Permissions-Policy:** Aplica o princípio do menor privilégio sobre APIs de hardware do navegador (câmara, microfone e geolocalização).
+
+---
+
+## 2. Guía de Ejecución Rápida
+
+Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
 
 ```bash
-python scanner.py example.com
+python scanner.py exemplo.com
 ```
 
 ---
 
-## 3. Online Diagnostic Suite
+## 3. Herramientas Técnicas Online (México)
 
-For comprehensive vulnerability scanning, DNS verification, and technical audits, visit our localized tools portal:
+Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
 
-* [Online HTTP Security Headers Checker](https://tools.tavardt.com/mx/security-headers-check/)
-* [Exposed Secret & Credential Scanner](https://tools.tavardt.com/mx/exposed-files-scanner/)
-* [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/mx/dmarc-checker/)
-* [Full Diagnostic Portal](https://tools.tavardt.com/mx/)
+* [Verificador de Cabeceras de Seguridad](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
+* [Validador de Consent Mode v2 y LFPDPPP](https://tools.tavardt.com/mx/validador-consent-mode-v2-lfpdppp/)
+* [Verificador DMARC contra Suplantación](https://tools.tavardt.com/mx/verificador-dmarc-correo/)
+* [Escáner de Archivos Sensibles Expuestos](https://tools.tavardt.com/mx/escaneo-archivos-expuestos/)
+* [Portal de Diagnóstico Técnico México](https://tools.tavardt.com/mx/)
 
-For professional remediation and cybersecurity advisory, contact [TAVARDT México](https://ag.tavardt.com/mx/contact/).
+---
+
+## 4. Consultoría y Protección Perimetral
+
+Para remediación técnica de vulnerabilidades, auditorías de datos y ciberdefensa en México, contacte con los ingenieros de **[TAVARDT México](https://ag.tavardt.com/mx/contacto/)**.

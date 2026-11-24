@@ -48,4 +48,12 @@ Para remediación técnica de vulnerabilidades, auditorías de datos y ciberdefe
 
 ***
 
+## Enlaces Útiles
+
+* **Portal Corporativo:** https://ag.tavardt.com/mx/
+* **Suite de Diagnósticos:** https://tools.tavardt.com/mx/
+* **Contacto Técnico:** https://ag.tavardt.com/mx/contacto/
+
+***
+
 © 2026 TAVARDT. Todos los derechos reservados.

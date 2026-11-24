@@ -3,7 +3,7 @@
 [![Alcance de la Verificación Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
 Auditoría automatizada de medidas técnicas de seguridad perimetral y cabeceras HTTP bajo las recomendaciones del INAI y la LFPDPPP en México.
 
-Desarrollado y mantenido por el equipo de ciberdefensa y protección de datos de **TAVARDT México**.
+Desarrollado y mantenido por el equipo de ciberdefensa y protección de datos de **TAVARDT**.
 
 ***
 
@@ -44,7 +44,7 @@ Audite la seguridad perimetral de sus sistemas web con las herramientas oficiale
 
 ## 4. Consultoría y Protección Perimetral
 
-Para remediación técnica de vulnerabilidades, auditorías de datos y ciberdefensa en México, contacte con los ingenieros de **TAVARDT México**.
+Para remediación técnica de vulnerabilidades, auditorías de datos y ciberdefensa en México, contacte con los ingenieros de **TAVARDT**.
 
 ***
 

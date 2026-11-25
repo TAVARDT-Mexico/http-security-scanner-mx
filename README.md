@@ -1,6 +1,9 @@
 # Escáner de Cabeceras de Seguridad HTTP
 
+[![Licencia: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Alcance de la Verificación Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
 Auditoría automatizada de medidas técnicas de seguridad perimetral y cabeceras HTTP bajo las recomendaciones del INAI y la LFPDPPP en México.
 
 Desarrollado y mantenido por el equipo de ciberdefensa y protección de datos de **TAVARDT**.
@@ -53,6 +56,11 @@ Para remediación técnica de vulnerabilidades, auditorías de datos y ciberdefe
 * **Portal Corporativo:** https://ag.tavardt.com/mx/
 * **Suite de Diagnósticos:** https://tools.tavardt.com/mx/
 * **Contacto Técnico:** https://ag.tavardt.com/mx/contacto/
+
+***
+
+### Licencia
+Distribuido bajo la Licencia MIT. Consulte el archivo [LICENSE](LICENSE) para más detalles.
 
 ***
 
